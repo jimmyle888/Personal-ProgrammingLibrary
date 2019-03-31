@@ -1,0 +1,7 @@
+D:\ProgrammingLibrary\Physics\Milkman\Milkman\bin\Debug\Milkman.exe.config
+D:\ProgrammingLibrary\Physics\Milkman\Milkman\bin\Debug\Milkman.exe
+D:\ProgrammingLibrary\Physics\Milkman\Milkman\bin\Debug\Milkman.pdb
+D:\ProgrammingLibrary\Physics\Milkman\Milkman\obj\Debug\Milkman.csprojResolveAssemblyReference.cache
+D:\ProgrammingLibrary\Physics\Milkman\Milkman\obj\Debug\Milkman.csproj.CoreCompileInputs.cache
+D:\ProgrammingLibrary\Physics\Milkman\Milkman\obj\Debug\Milkman.exe
+D:\ProgrammingLibrary\Physics\Milkman\Milkman\obj\Debug\Milkman.pdb

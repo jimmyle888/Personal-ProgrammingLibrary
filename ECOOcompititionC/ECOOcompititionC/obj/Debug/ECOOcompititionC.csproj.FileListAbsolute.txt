@@ -1,0 +1,7 @@
+D:\ProgrammingLibrary\ECOOcompititionC\ECOOcompititionC\bin\Debug\ECOOcompititionC.exe.config
+D:\ProgrammingLibrary\ECOOcompititionC\ECOOcompititionC\bin\Debug\ECOOcompititionC.exe
+D:\ProgrammingLibrary\ECOOcompititionC\ECOOcompititionC\bin\Debug\ECOOcompititionC.pdb
+D:\ProgrammingLibrary\ECOOcompititionC\ECOOcompititionC\obj\Debug\ECOOcompititionC.csprojResolveAssemblyReference.cache
+D:\ProgrammingLibrary\ECOOcompititionC\ECOOcompititionC\obj\Debug\ECOOcompititionC.csproj.CoreCompileInputs.cache
+D:\ProgrammingLibrary\ECOOcompititionC\ECOOcompititionC\obj\Debug\ECOOcompititionC.exe
+D:\ProgrammingLibrary\ECOOcompititionC\ECOOcompititionC\obj\Debug\ECOOcompititionC.pdb

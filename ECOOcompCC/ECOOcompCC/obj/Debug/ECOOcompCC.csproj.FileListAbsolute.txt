@@ -1,0 +1,7 @@
+D:\ProgrammingLibrary\ECOOcompCC\ECOOcompCC\bin\Debug\ECOOcompCC.exe.config
+D:\ProgrammingLibrary\ECOOcompCC\ECOOcompCC\bin\Debug\ECOOcompCC.exe
+D:\ProgrammingLibrary\ECOOcompCC\ECOOcompCC\bin\Debug\ECOOcompCC.pdb
+D:\ProgrammingLibrary\ECOOcompCC\ECOOcompCC\obj\Debug\ECOOcompCC.csprojResolveAssemblyReference.cache
+D:\ProgrammingLibrary\ECOOcompCC\ECOOcompCC\obj\Debug\ECOOcompCC.csproj.CoreCompileInputs.cache
+D:\ProgrammingLibrary\ECOOcompCC\ECOOcompCC\obj\Debug\ECOOcompCC.exe
+D:\ProgrammingLibrary\ECOOcompCC\ECOOcompCC\obj\Debug\ECOOcompCC.pdb

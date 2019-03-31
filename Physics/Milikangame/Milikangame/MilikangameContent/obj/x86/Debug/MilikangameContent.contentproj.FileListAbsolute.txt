@@ -1,0 +1,2 @@
+D:\ProgrammingLibrary\Physics\Milikangame\Milikangame\MilikangameContent\obj\x86\Debug\MilikangameContent.contentprojResolveAssemblyReference.cache
+D:\ProgrammingLibrary\Physics\Milikangame\Milikangame\MilikangameContent\obj\x86\Debug\MilikangameContent.contentproj.CoreCompileInputs.cache

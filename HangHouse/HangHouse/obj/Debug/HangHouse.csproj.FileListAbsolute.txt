@@ -1,0 +1,6 @@
+D:\ProgrammingLibrary\HangHouse\HangHouse\bin\Debug\HangHouse.exe.config
+D:\ProgrammingLibrary\HangHouse\HangHouse\bin\Debug\HangHouse.exe
+D:\ProgrammingLibrary\HangHouse\HangHouse\bin\Debug\HangHouse.pdb
+D:\ProgrammingLibrary\HangHouse\HangHouse\obj\Debug\HangHouse.csprojResolveAssemblyReference.cache
+D:\ProgrammingLibrary\HangHouse\HangHouse\obj\Debug\HangHouse.exe
+D:\ProgrammingLibrary\HangHouse\HangHouse\obj\Debug\HangHouse.pdb

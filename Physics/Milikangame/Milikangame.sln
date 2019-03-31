@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Milikangame", "Milikangame\Milikangame\Milikangame.csproj", "{941CB0C8-B039-46E9-9902-3CB5D3DD6984}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "MilikangameContent", "Milikangame\MilikangameContent\MilikangameContent.contentproj", "{7C29B9C4-B0B3-45DC-AD89-00BFE2E9152C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{941CB0C8-B039-46E9-9902-3CB5D3DD6984}.Debug|x86.ActiveCfg = Debug|x86
+		{941CB0C8-B039-46E9-9902-3CB5D3DD6984}.Debug|x86.Build.0 = Debug|x86
+		{941CB0C8-B039-46E9-9902-3CB5D3DD6984}.Release|x86.ActiveCfg = Release|x86
+		{941CB0C8-B039-46E9-9902-3CB5D3DD6984}.Release|x86.Build.0 = Release|x86
+		{7C29B9C4-B0B3-45DC-AD89-00BFE2E9152C}.Debug|x86.ActiveCfg = Debug|x86
+		{7C29B9C4-B0B3-45DC-AD89-00BFE2E9152C}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6722E35A-4A78-47E9-BC58-BDFC366C40A5}
+	EndGlobalSection
+EndGlobal

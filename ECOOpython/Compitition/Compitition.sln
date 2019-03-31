@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Compitition", "Compitition\Compitition.pyproj", "{8A9CFB61-EE59-4E16-96A3-8D22419C091B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A9CFB61-EE59-4E16-96A3-8D22419C091B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A9CFB61-EE59-4E16-96A3-8D22419C091B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7639FE4A-6195-4F42-8671-B2C5757B308B}
+	EndGlobalSection
+EndGlobal
