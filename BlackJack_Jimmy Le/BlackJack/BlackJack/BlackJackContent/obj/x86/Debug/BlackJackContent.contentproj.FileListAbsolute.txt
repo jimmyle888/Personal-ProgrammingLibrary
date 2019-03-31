@@ -1,0 +1,7 @@
+E:\School\16_17\Sem1\ICS3\Assignments\PASS2\11U\BlackJack\BlackJack\BlackJackContent\obj\x86\Debug\BlackJackContent.contentprojResolveAssemblyReference.cache
+E:\School\16_17\Sem1\ICS3\Assignments\PASS3\11U\BlackJack\BlackJack\BlackJackContent\obj\x86\Debug\BlackJackContent.contentprojResolveAssemblyReference.cache
+G:\ICS3\Assignments\Programming\A3_Advanced_Programming\BlackJack (1)\BlackJack\BlackJack\BlackJackContent\obj\x86\Debug\BlackJackContent.contentprojResolveAssemblyReference.cache
+F:\ICS3\Assignments\Programming\A3_Advanced_Programming\BlackJack (1)\BlackJack\BlackJack\BlackJackContent\obj\x86\Debug\BlackJackContent.contentprojResolveAssemblyReference.cache
+G:\ICS 3\A3_Advanced_Programming\BlackJack (1)\BlackJack\BlackJack\BlackJackContent\obj\x86\Debug\BlackJackContent.contentprojResolveAssemblyReference.cache
+C:\Users\jj\Downloads\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJackContent\obj\x86\Debug\BlackJackContent.contentprojResolveAssemblyReference.cache
+D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJackContent\obj\x86\Debug\BlackJackContent.contentprojResolveAssemblyReference.cache

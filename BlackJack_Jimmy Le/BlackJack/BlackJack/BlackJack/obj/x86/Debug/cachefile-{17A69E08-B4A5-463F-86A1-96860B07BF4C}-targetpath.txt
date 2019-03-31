@@ -1,0 +1,9 @@
+Content\images\sprites\CardBack.xnb
+Content\images\sprites\CardFaces.xnb
+Content\images\backgrounds\BlackjackBackground.xnb
+Content\images\sprites\blueButton.xnb
+Content\images\sprites\redButton.xnb
+Content\images\sprites\numpad.xnb
+Content\images\sprites\greyRectangle.xnb
+Content\images\sprites\redbutton2.xnb
+Content\fonts\outputFont.xnb

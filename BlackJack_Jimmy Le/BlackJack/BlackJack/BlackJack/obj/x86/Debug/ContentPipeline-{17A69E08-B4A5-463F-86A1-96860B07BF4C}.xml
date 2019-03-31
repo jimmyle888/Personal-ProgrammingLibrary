@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>images\sprites\CardBack.png</Source>
+      <Name>images\sprites\CardBack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\CardBack.xnb</Output>
+      <Time>2016-12-13T19:03:48.709734-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\sprites\CardFaces.png</Source>
+      <Name>images\sprites\CardFaces</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\CardFaces.xnb</Output>
+      <Time>2016-12-13T19:03:48.8222488-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\backgrounds\BlackjackBackground.jpg</Source>
+      <Name>images\backgrounds\BlackjackBackground</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\backgrounds\BlackjackBackground.xnb</Output>
+      <Time>2016-12-13T19:03:48.6602286-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\sprites\blueButton.png</Source>
+      <Name>images\sprites\blueButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\blueButton.xnb</Output>
+      <Time>2016-12-13T19:03:48.6877318-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\sprites\redButton.png</Source>
+      <Name>images\sprites\redButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\redButton.xnb</Output>
+      <Time>2016-12-13T19:03:48.908761-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\sprites\numpad.png</Source>
+      <Name>images\sprites\numpad</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\numpad.xnb</Output>
+      <Time>2016-12-13T19:03:48.8832577-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\sprites\greyRectangle.png</Source>
+      <Name>images\sprites\greyRectangle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\greyRectangle.xnb</Output>
+      <Time>2016-12-13T19:03:48.8617533-05:00</Time>
+    </Item>
+    <Item>
+      <Source>images\sprites\redbutton2.png</Source>
+      <Name>images\sprites\redbutton2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\redbutton2.xnb</Output>
+      <Time>2016-12-13T19:03:48.9932714-05:00</Time>
+    </Item>
+    <Item>
+      <Source>fonts\outputFont.spritefont</Source>
+      <Name>fonts\outputFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\fonts\outputFont.xnb</Output>
+      <Time>2016-12-13T19:03:48.6132239-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{17A69E08-B4A5-463F-86A1-96860B07BF4C}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJackContent\</RootDirectory>
+      <LoggerRootDirectory>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2018-06-06T18:09:32.252268-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
