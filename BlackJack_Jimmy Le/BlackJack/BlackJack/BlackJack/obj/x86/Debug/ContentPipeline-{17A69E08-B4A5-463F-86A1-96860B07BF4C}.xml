@@ -7,8 +7,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\CardBack.xnb</Output>
-      <Time>2016-12-13T19:03:48.709734-05:00</Time>
+      <Output>C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\CardBack.xnb</Output>
+      <Time>2019-03-31T14:11:20.7432994-04:00</Time>
     </Item>
     <Item>
       <Source>images\sprites\CardFaces.png</Source>
@@ -16,8 +16,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\CardFaces.xnb</Output>
-      <Time>2016-12-13T19:03:48.8222488-05:00</Time>
+      <Output>C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\CardFaces.xnb</Output>
+      <Time>2019-03-31T14:11:20.7570699-04:00</Time>
     </Item>
     <Item>
       <Source>images\backgrounds\BlackjackBackground.jpg</Source>
@@ -25,8 +25,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\backgrounds\BlackjackBackground.xnb</Output>
-      <Time>2016-12-13T19:03:48.6602286-05:00</Time>
+      <Output>C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\backgrounds\BlackjackBackground.xnb</Output>
+      <Time>2019-03-31T14:11:20.7307561-04:00</Time>
     </Item>
     <Item>
       <Source>images\sprites\blueButton.png</Source>
@@ -34,8 +34,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\blueButton.xnb</Output>
-      <Time>2016-12-13T19:03:48.6877318-05:00</Time>
+      <Output>C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\blueButton.xnb</Output>
+      <Time>2019-03-31T14:11:20.7667863-04:00</Time>
     </Item>
     <Item>
       <Source>images\sprites\redButton.png</Source>
@@ -43,8 +43,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\redButton.xnb</Output>
-      <Time>2016-12-13T19:03:48.908761-05:00</Time>
+      <Output>C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\redButton.xnb</Output>
+      <Time>2019-03-31T14:11:20.8139757-04:00</Time>
     </Item>
     <Item>
       <Source>images\sprites\numpad.png</Source>
@@ -52,8 +52,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\numpad.xnb</Output>
-      <Time>2016-12-13T19:03:48.8832577-05:00</Time>
+      <Output>C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\numpad.xnb</Output>
+      <Time>2019-03-31T14:11:20.8014937-04:00</Time>
     </Item>
     <Item>
       <Source>images\sprites\greyRectangle.png</Source>
@@ -61,8 +61,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\greyRectangle.xnb</Output>
-      <Time>2016-12-13T19:03:48.8617533-05:00</Time>
+      <Output>C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\greyRectangle.xnb</Output>
+      <Time>2019-03-31T14:11:20.787796-04:00</Time>
     </Item>
     <Item>
       <Source>images\sprites\redbutton2.png</Source>
@@ -70,8 +70,8 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\redbutton2.xnb</Output>
-      <Time>2016-12-13T19:03:48.9932714-05:00</Time>
+      <Output>C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\images\sprites\redbutton2.xnb</Output>
+      <Time>2019-03-31T14:11:20.8279605-04:00</Time>
     </Item>
     <Item>
       <Source>fonts\outputFont.spritefont</Source>
@@ -79,8 +79,8 @@
       <Importer>FontDescriptionImporter</Importer>
       <Processor>FontDescriptionProcessor</Processor>
       <Options>None</Options>
-      <Output>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\fonts\outputFont.xnb</Output>
-      <Time>2016-12-13T19:03:48.6132239-05:00</Time>
+      <Output>C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\fonts\outputFont.xnb</Output>
+      <Time>2019-03-31T14:11:20.719109-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
@@ -89,10 +89,10 @@
       <TargetProfile>Reach</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJackContent\</RootDirectory>
-      <LoggerRootDirectory>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\</LoggerRootDirectory>
-      <IntermediateDirectory>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>D:\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJackContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\BlackJack_Jimmy Le\BlackJack\BlackJack\BlackJack\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>
@@ -121,7 +121,7 @@
       </Assembly>
       <Assembly>
         <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
-        <Value>2018-06-06T18:09:32.252268-04:00</Value>
+        <Value>2019-02-28T01:48:30.1263676-05:00</Value>
       </Assembly>
     </Assemblies>
   </Asset>
