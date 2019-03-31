@@ -61,7 +61,7 @@
     <XnaCompressContent>true</XnaCompressContent>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>47C2491842C04D3840C24887192B49733EA3FDBE</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>A9E72580F5594B3B3A96A68F156DFC1B1DAE79E8</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>BlackJack_TemporaryKey.pfx</ManifestKeyFile>
