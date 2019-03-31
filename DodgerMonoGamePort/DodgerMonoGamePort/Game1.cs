@@ -87,7 +87,7 @@ namespace DodgerMonoGamePort
             // TODO: Add your update logic here
 
             p1.Update();
-            enemies[0].Update();
+            //enemies[0].Update();
 
             base.Update(gameTime);
         }
