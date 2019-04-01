@@ -4,3 +4,9 @@ D:\ProgrammingLibrary\HangHouse\HangHouse\bin\Debug\HangHouse.pdb
 D:\ProgrammingLibrary\HangHouse\HangHouse\obj\Debug\HangHouse.csprojResolveAssemblyReference.cache
 D:\ProgrammingLibrary\HangHouse\HangHouse\obj\Debug\HangHouse.exe
 D:\ProgrammingLibrary\HangHouse\HangHouse\obj\Debug\HangHouse.pdb
+C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\HangHouse\HangHouse\bin\Debug\HangHouse.exe.config
+C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\HangHouse\HangHouse\obj\Debug\HangHouse.exe
+C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\HangHouse\HangHouse\obj\Debug\HangHouse.pdb
+C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\HangHouse\HangHouse\bin\Debug\HangHouse.exe
+C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\HangHouse\HangHouse\bin\Debug\HangHouse.pdb
+C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\HangHouse\HangHouse\obj\Debug\HangHouse.csprojResolveAssemblyReference.cache
