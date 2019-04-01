@@ -16,11 +16,20 @@ namespace DodgerMonoGamePort
 
         Texture2D baddieImg;
         Texture2D playerImg;
+        KeyboardState kb = Keyboard.GetState();
+
+        int screenWidth = 400;
+        int screenHeight = 1000;
 
         Player p1;
 
         List<Enemy> enemies = new List<Enemy>();
 
+       
+        const int PLAY = 1;
+        const int GAMEOVER = 0;
+        const int MENU = 2;
+        int gamestate = MENU;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -36,8 +45,8 @@ namespace DodgerMonoGamePort
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            graphics.PreferredBackBufferWidth = 200;  // set this value to the desired width of your window
-            graphics.PreferredBackBufferHeight = 500;   // set this value to the desired height of your window
+            graphics.PreferredBackBufferWidth = screenWidth;  // set this value to the desired width of your window
+            graphics.PreferredBackBufferHeight = screenHeight;   // set this value to the desired height of your window
             graphics.ApplyChanges();
 
             base.Initialize();
@@ -58,9 +67,17 @@ namespace DodgerMonoGamePort
             playerImg = Content.Load<Texture2D>("images/player");
 
             p1 = new Player(playerImg);
-            enemies.Add(new Enemy(baddieImg, GraphicsDevice));
-            enemies[0].dest.X = 100;
-            enemies[0].dest.Y = 100;
+            //enemies.Add(new Enemy(baddieImg, 2, screenWidth, screenHeight));
+            //enemies[0].dest.X = 200;
+            //enemies.Add(new Enemy(baddieImg, 1, screenWidth, screenHeight));
+            //enemies[1].dest.X = 300;
+
+            //enemies.Add(new Enemy(baddieImg, 3, screenWidth, screenHeight));
+
+            CreateEnemies(10);
+
+            //enemies[0].dest.X = 100;
+            //enemies[0].dest.Y = 100;
 
             // TODO: use this.Content to load your game content here
         }
@@ -86,8 +103,28 @@ namespace DodgerMonoGamePort
 
             // TODO: Add your update logic here
 
-            p1.Update();
-            //enemies[0].Update();
+
+
+            switch (gamestate)
+            {
+                case MENU:
+                    p1.Update();
+                    if (Keyboard.GetState().IsKeyDown(Keys.E))
+                    {
+                        gamestate = PLAY;
+                    }
+                    break;
+                case PLAY:
+                    p1.Update();
+                    UpdateEnemies();
+                    if (CheckGameOver())
+                    {
+                        gamestate = GAMEOVER;
+                    }
+                    break;
+                case GAMEOVER:
+                    break;
+            }
 
             base.Update(gameTime);
         }
@@ -105,11 +142,61 @@ namespace DodgerMonoGamePort
             spriteBatch.Begin();
 
             p1.Draw(spriteBatch);
-            enemies[0].Draw(spriteBatch);
+            //enemies[0].Draw(spriteBatch);
+            DrawEnemies(spriteBatch);
+
+            //spriteBatch.DrawString()
 
             spriteBatch.End();
 
             base.Draw(gameTime);
+        }
+
+        private void UpdateEnemies()
+        {
+            foreach (Enemy e in enemies)
+            {
+                e.Update();
+            }
+        }
+
+        private void DrawEnemies(SpriteBatch s)
+        {
+            foreach (Enemy e in enemies)
+            {
+                e.Draw(s);
+            }
+        }
+
+        private void CreateEnemies(int n)
+        {
+            Enemy prevE = new Enemy(null, 1, screenWidth, screenHeight);
+            prevE.dest.X = -1000;   
+            Enemy curE = new Enemy(baddieImg, 1, screenWidth, screenHeight);
+
+            for (int i = 1; i < n + 1; i++)
+            {
+                curE = new Enemy(baddieImg, i, screenWidth, screenHeight);
+                while ((curE.dest.X > prevE.dest.X -50 && curE.dest.X < prevE.dest.X + 50))
+                {
+                    curE = new Enemy(baddieImg, i, screenWidth, screenHeight);
+                }
+                enemies.Add(curE);
+                prevE = curE;
+            }
+        }
+
+        private bool CheckGameOver()
+        {
+            foreach (Enemy en in enemies)
+            {
+                if (p1.CheckCollsion(en.dest))
+                {
+                    return true;
+                }
+            }
+
+            return false;
         }
     }
 }
