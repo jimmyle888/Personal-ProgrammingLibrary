@@ -22,7 +22,7 @@ namespace DodgerMonoGamePort
         public Player(Texture2D img)
         {
             this.img = img;
-            //this.dest = dest;
+            dest = new Rectangle(400, 400, 25, 25);
         }
 
         public void Update()
