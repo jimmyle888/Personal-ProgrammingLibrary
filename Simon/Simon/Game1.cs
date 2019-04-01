@@ -1,4 +1,7 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
@@ -11,6 +14,30 @@ namespace Simon
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+
+        int screenWidth = 1280;
+        int screenHeight = 720;
+
+        Texture2D bg;
+        Rectangle bgBounds;
+
+        Rectangle green;
+        Rectangle red;
+        Rectangle yellow;
+        Rectangle blue;
+
+        Texture2D highlight;
+
+        Random rng = new Random();
+
+        List<int> seq = new List<int>();
+
+        int timer = 0;
+
+        const int MENU = 0;
+        const int SHOW = 1;
+        const int SELECT = 2;
+        int gameState = MENU;
 
         public Game1()
         {
@@ -27,6 +54,11 @@ namespace Simon
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            graphics.PreferredBackBufferWidth = screenWidth;  // set this value to the desired width of your window
+            graphics.PreferredBackBufferHeight = screenHeight;   // set this value to the desired height of your window
+            graphics.ApplyChanges();
+
+            this.IsMouseVisible = true;
 
             base.Initialize();
         }
@@ -39,6 +71,18 @@ namespace Simon
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
+
+            bg = Content.Load<Texture2D>("images/imadethismyself");
+            bgBounds = new Rectangle(0, 0, screenWidth, screenHeight);
+
+            green = new Rectangle(0, 0, screenWidth / 2, screenHeight / 2);
+            red = new Rectangle(screenWidth / 2, 0, screenWidth / 2, screenHeight / 2);
+            yellow = new Rectangle(0, screenHeight / 2, screenWidth / 2, screenHeight / 2);
+            blue = new Rectangle(screenWidth / 2, screenHeight / 2, screenWidth / 2, screenHeight / 2);
+
+            highlight = Content.Load<Texture2D>("images/jefff");
+
+            seq = GenerateSeq(4);
 
             // TODO: use this.Content to load your game content here
         }
@@ -63,6 +107,19 @@ namespace Simon
                 Exit();
 
             // TODO: Add your update logic here
+            switch (gameState)
+            {
+                case MENU:
+                    break;
+                case SHOW:
+                    break;
+                case SELECT:
+                    break;
+                default:
+                    break;
+
+            }
+            
 
             base.Update(gameTime);
         }
@@ -76,8 +133,37 @@ namespace Simon
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+            spriteBatch.Begin();
+
+            spriteBatch.Draw(bg, bgBounds, Color.White);
+            spriteBatch.Draw(highlight, red, Color.Red);
+
+            spriteBatch.End();
 
             base.Draw(gameTime);
+        }
+
+        private List<int> GenerateSeq(int length)
+        {
+            List<int> newSeq = new List<int>();
+
+            for (int i = 0; i < length; i++)
+            {
+                newSeq.Add(rng.Next(1, 5));
+            }
+
+            return newSeq;
+
+        }
+
+        private void PlaySeq()
+        {
+
+        }
+        
+        private void DrawSeq()
+        {
+            
         }
     }
 }
