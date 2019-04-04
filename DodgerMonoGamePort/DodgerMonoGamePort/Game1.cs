@@ -13,6 +13,8 @@ namespace DodgerMonoGamePort
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        SpriteFont font;  //Default font
+        SpriteFont gameOver; //Game Over Font
 
         Texture2D baddieImg;
         Texture2D playerImg;
@@ -25,11 +27,22 @@ namespace DodgerMonoGamePort
 
         List<Enemy> enemies = new List<Enemy>();
 
+        int curTime;
+        int bestTime;
+        int frames;
        
         const int PLAY = 1;
         const int GAMEOVER = 0;
         const int MENU = 2;
         int gamestate = MENU;
+
+        Vector2 centerBegin = new Vector2(112, 450);
+        Vector2 centerOver = new Vector2(22, 10);
+
+        Texture2D rect;
+        Vector2 coor;
+
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -66,6 +79,9 @@ namespace DodgerMonoGamePort
             baddieImg = Content.Load<Texture2D>("images/baddie");
             playerImg = Content.Load<Texture2D>("images/player");
 
+            font = Content.Load<SpriteFont>("fonts/font");
+            gameOver = Content.Load<SpriteFont>("fonts/gameOver");
+
             p1 = new Player(playerImg);
             //enemies.Add(new Enemy(baddieImg, 2, screenWidth, screenHeight));
             //enemies[0].dest.X = 200;
@@ -75,6 +91,19 @@ namespace DodgerMonoGamePort
             //enemies.Add(new Enemy(baddieImg, 3, screenWidth, screenHeight));
 
             CreateEnemies(10);
+
+            curTime = 0;
+            bestTime = 0;
+            frames = 0;
+
+            rect = new Texture2D(graphics.GraphicsDevice, 80, 30);
+            coor = new Vector2(10, 20);
+            Color[] data = new Color[80*30];
+
+            for (int i = 0; i < data.Length; ++i) data[i] = Color.GreenYellow;
+
+            rect.SetData(data);
+
 
             //enemies[0].dest.X = 100;
             //enemies[0].dest.Y = 100;
@@ -102,7 +131,11 @@ namespace DodgerMonoGamePort
                 Exit();
 
             // TODO: Add your update logic here
-
+            if (frames == 60)
+            {
+                curTime++;
+                frames = 0;
+            }
 
 
             switch (gamestate)
@@ -126,6 +159,8 @@ namespace DodgerMonoGamePort
                     break;
             }
 
+            frames++;
+
             base.Update(gameTime);
         }
 
@@ -141,9 +176,25 @@ namespace DodgerMonoGamePort
 
             spriteBatch.Begin();
 
+            spriteBatch.Draw(rect, coor, Color.Green);
+
+
+            switch (gamestate)
+            {
+                case MENU:
+                    spriteBatch.DrawString(font, "Press 'E' TO BEGIN", centerBegin, Color.Green);
+                    break;
+                case PLAY:
+                    DrawEnemies(spriteBatch);
+                    break;
+                case GAMEOVER:
+                    DrawEnemies(spriteBatch);
+                    spriteBatch.DrawString(gameOver, "GAME OVER", centerOver, Color.Red);
+                    break;
+            }
+
             p1.Draw(spriteBatch);
             //enemies[0].Draw(spriteBatch);
-            DrawEnemies(spriteBatch);
 
             //spriteBatch.DrawString()
 
