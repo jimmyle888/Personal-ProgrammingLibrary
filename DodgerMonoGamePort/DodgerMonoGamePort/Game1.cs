@@ -100,7 +100,7 @@ namespace DodgerMonoGamePort
             coor = new Vector2(10, 20);
             Color[] data = new Color[80*30];
 
-            for (int i = 0; i < data.Length; ++i) data[i] = Color.GreenYellow;
+            for (int i = 0; i < data.Length; ++i) data[i] = Color.White;
 
             rect.SetData(data);
 
@@ -176,7 +176,7 @@ namespace DodgerMonoGamePort
 
             spriteBatch.Begin();
 
-            spriteBatch.Draw(rect, coor, Color.Green);
+            spriteBatch.Draw(rect, coor, Color.Yellow * 0.5f);
 
 
             switch (gamestate)
@@ -194,6 +194,7 @@ namespace DodgerMonoGamePort
             }
 
             p1.Draw(spriteBatch);
+
             //enemies[0].Draw(spriteBatch);
 
             //spriteBatch.DrawString()
