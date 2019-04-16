@@ -16,6 +16,7 @@ namespace TetrisDemo
     {
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        List<Block> blocks = new List<Block>();
 
         public Game1()
         {
