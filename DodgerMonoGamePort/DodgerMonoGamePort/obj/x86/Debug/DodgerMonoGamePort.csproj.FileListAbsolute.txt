@@ -48,3 +48,5 @@ C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\DodgerMonoGamePort\D
 C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\DodgerMonoGamePort\DodgerMonoGamePort\obj\x86\Debug\DodgerMonoGamePort.csprojResolveAssemblyReference.cache
 D:\ProgrammingLibrary\DodgerMonoGamePort\DodgerMonoGamePort\bin\Windows\x86\Debug\Content\fonts\font.xnb
 D:\ProgrammingLibrary\DodgerMonoGamePort\DodgerMonoGamePort\bin\Windows\x86\Debug\Content\fonts\gameOver.xnb
+C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\DodgerMonoGamePort\DodgerMonoGamePort\bin\Windows\x86\Debug\Content\fonts\font.xnb
+C:\Users\Jimmy\Documents\GitHub\Personal-ProgrammingLibrary\DodgerMonoGamePort\DodgerMonoGamePort\bin\Windows\x86\Debug\Content\fonts\gameOver.xnb
