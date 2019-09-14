@@ -18,6 +18,11 @@ namespace TetrisDemo
         SpriteBatch spriteBatch;
         List<Block> blocks = new List<Block>();
 
+        int screenWidth = 600;
+        int screenHeight = 1000;
+
+        int timer;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -33,6 +38,10 @@ namespace TetrisDemo
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            this.IsMouseVisible = true;
+            graphics.PreferredBackBufferWidth = screenWidth;
+            graphics.PreferredBackBufferHeight = screenHeight;
+            graphics.ApplyChanges();
 
             base.Initialize();
         }
@@ -47,6 +56,12 @@ namespace TetrisDemo
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here
+            blocks.Add(new Block(graphics, new Vector2(100, 0), Color.Blue));
+            blocks.Add(new Rect(graphics, new Vector2(200, 0), Color.Green));
+            blocks.Add(new Square(graphics, new Vector2(300, 0), Color.Yellow));
+
+            timer = 0;
+
         }
 
         /// <summary>
@@ -70,6 +85,10 @@ namespace TetrisDemo
 
             // TODO: Add your update logic here
 
+            UpdateBlocks();
+
+
+
             base.Update(gameTime);
         }
 
@@ -79,16 +98,33 @@ namespace TetrisDemo
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Black);
 
             // TODO: Add your drawing code here
             spriteBatch.Begin();
 
+            DrawBlocks(spriteBatch);
 
 
             spriteBatch.End();
 
             base.Draw(gameTime);
+        }
+
+        public void DrawBlocks(SpriteBatch sb)
+        {
+            foreach(Block b in blocks)
+            {
+                b.Draw(sb);
+            }
+        }
+
+        public void UpdateBlocks()
+        {
+            foreach(Block b in blocks)
+            {
+                b.Update();
+            }
         }
     }
 }
