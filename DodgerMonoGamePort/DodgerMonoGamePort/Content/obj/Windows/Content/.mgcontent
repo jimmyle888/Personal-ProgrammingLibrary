@@ -4,11 +4,11 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>D:/ProgrammingLibrary/DodgerMonoGamePort/DodgerMonoGamePort/Content/fonts/File.spritefont</File>
-    <File>D:/ProgrammingLibrary/DodgerMonoGamePort/DodgerMonoGamePort/Content/fonts/gameOver.spritefont</File>
-    <File>D:/ProgrammingLibrary/DodgerMonoGamePort/DodgerMonoGamePort/Content/images/baddie.png</File>
-    <File>D:/ProgrammingLibrary/DodgerMonoGamePort/DodgerMonoGamePort/Content/images/player.png</File>
-    <File>D:/ProgrammingLibrary/DodgerMonoGamePort/DodgerMonoGamePort/Content/sounds/gameover.wav</File>
+    <File>C:/Users/Jimmy/Documents/GitHub/Personal-ProgrammingLibrary/DodgerMonoGamePort/DodgerMonoGamePort/Content/fonts/File.spritefont</File>
+    <File>C:/Users/Jimmy/Documents/GitHub/Personal-ProgrammingLibrary/DodgerMonoGamePort/DodgerMonoGamePort/Content/fonts/gameOver.spritefont</File>
+    <File>C:/Users/Jimmy/Documents/GitHub/Personal-ProgrammingLibrary/DodgerMonoGamePort/DodgerMonoGamePort/Content/images/baddie.png</File>
+    <File>C:/Users/Jimmy/Documents/GitHub/Personal-ProgrammingLibrary/DodgerMonoGamePort/DodgerMonoGamePort/Content/images/player.png</File>
+    <File>C:/Users/Jimmy/Documents/GitHub/Personal-ProgrammingLibrary/DodgerMonoGamePort/DodgerMonoGamePort/Content/sounds/gameover.wav</File>
   </SourceFiles>
   <DestFiles>
     <File>fonts/font.spritefont</File>
