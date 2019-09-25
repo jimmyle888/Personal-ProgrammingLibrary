@@ -136,7 +136,7 @@ namespace Simon
             spriteBatch.Begin();
 
             spriteBatch.Draw(bg, bgBounds, Color.White);
-            spriteBatch.Draw(highlight, red, Color.Red);
+            //spriteBatch.Draw(highlight, red, Color.Red);
 
             spriteBatch.End();
 
