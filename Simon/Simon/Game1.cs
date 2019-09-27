@@ -27,10 +27,12 @@ namespace Simon
         Rectangle blue;
 
         Texture2D highlight;
+        Rectangle btn;
 
         Random rng = new Random();
 
         List<int> seq = new List<int>();
+        int curSeq;
 
         int timer = 0;
 
@@ -112,6 +114,7 @@ namespace Simon
                 case MENU:
                     break;
                 case SHOW:
+                    timer++;
                     break;
                 case SELECT:
                     break;
@@ -136,7 +139,7 @@ namespace Simon
             spriteBatch.Begin();
 
             spriteBatch.Draw(bg, bgBounds, Color.White);
-            //spriteBatch.Draw(highlight, red, Color.Red);
+            spriteBatch.Draw(highlight, red, Color.White);
 
             spriteBatch.End();
 
@@ -156,14 +159,18 @@ namespace Simon
 
         }
 
-        private void PlaySeq()
+        private void PlaySeq(int interval)
         {
+            if (timer == interval)
+            {
 
+            }
         }
         
         private void DrawSeq()
         {
             
+            spriteBatch.Draw(highlight, btn, Color.White);
         }
     }
 }
