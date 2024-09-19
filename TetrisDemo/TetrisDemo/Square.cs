@@ -15,10 +15,10 @@ namespace TetrisDemo
         {
         }
 
-        private new void CreateBlock(GraphicsDeviceManager gd)
+        public override void CreateBlock(GraphicsDeviceManager gd)
         {
-            bound = new Texture2D(gd.GraphicsDevice, 30, 30);
-            data = new Color[0 * 0];
+            bound = new Texture2D(gd.GraphicsDevice, 100, 100);
+            data = new Color[100 * 100];
 
             for (int i = 0; i < data.Length; ++i) data[i] = Color.White;
             bound.SetData(data);

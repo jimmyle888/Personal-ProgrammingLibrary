@@ -16,6 +16,7 @@ namespace TetrisDemo
         protected Vector2 co;
         protected Color[] data;
         protected Color color;
+        protected int timer = 0;
 
         public Block(GraphicsDeviceManager gd, Vector2 co, Color color)
         {
@@ -27,7 +28,15 @@ namespace TetrisDemo
 
         public void Update()
         {
+            timer++;
 
+            if (timer == 60)
+            {
+                co.Y += 40;
+                timer = 0;
+            }
+
+            
         }
 
 
@@ -36,10 +45,10 @@ namespace TetrisDemo
             sb.Draw(bound, co, color * 0.5f);
         }
 
-        protected void CreateBlock(GraphicsDeviceManager gd)
+        public virtual void CreateBlock(GraphicsDeviceManager gd)
         {
-            bound = new Texture2D(gd.GraphicsDevice, 0, 0);
-            data = new Color[0 * 0];
+            bound = new Texture2D(gd.GraphicsDevice, 10, 10);
+            data = new Color[10 * 10];
 
             for (int i = 0; i < data.Length; ++i) data[i] = Color.White;
             bound.SetData(data);
